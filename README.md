@@ -15,4 +15,6 @@ There are two tables. Accounts and passwords. Passwords table allows for groupin
 ## Requirements
 Scala: 2.12.3
 
-Play!: 2.6.7
+Play!: 2.6.6
+
+SBT: 1.0.2
