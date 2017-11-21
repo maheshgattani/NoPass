@@ -47,7 +47,6 @@ CREATE TABLE `passwords` (
   password: String
   notes: String
 }
-
 ```
 
 The expectation is that the client will build this object, encrypt and serialize before writing to the server. Or deserialzie and decrypt before showing it to the users.
