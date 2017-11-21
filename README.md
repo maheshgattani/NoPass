@@ -25,7 +25,7 @@ CREATE TABLE `accounts` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8
 ```
 
-###Passwords table
+### Passwords table
 ```
 CREATE TABLE `passwords` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
