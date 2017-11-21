@@ -12,10 +12,6 @@ import play.api.mvc._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
-/**
- * This controller creates an `Action` to handle HTTP requests to the
- * application's home page.
- */
 @Singleton
 class OptionsController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
 	

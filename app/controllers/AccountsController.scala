@@ -15,8 +15,7 @@ import scala.concurrent.Future
 case class PasswordRequest(email: String, password: String, folder: Option[String], passwordId: Option[Long], data: String)
 
 /**
- * This controller creates an `Action` to handle HTTP requests to the
- * application's home page.
+ * Controller to handle all things "Accounts" and it's passwords
  */
 @Singleton
 class AccountsController @Inject()(cc: ControllerComponents, accountModel: AccountModel, passwordModel: PasswordModel) extends AbstractController(cc) {
